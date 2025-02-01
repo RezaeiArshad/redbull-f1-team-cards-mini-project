@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+}
+
+#head-div {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#head-div p {
+    display: inline;
+    color: beige;
+    position: relative;
+    margin-right: 9px;
+    margin-left: 9px;
+    bottom: 50px;
+    font-family: tahoma;
+    font-weight: bolder;
+}
+
+#redbull-image {
+    width: 384px;
+    height: 216px;
+    background-size: cover;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    z-index: -1;
+}
+
+#order-format {
+    width: 200px;
+    display: block;
+    margin: -20px auto;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    font-family: tahoma;
+    font-size: bold;
+}
+
+#list-fieldset {
+    width: 550px;
+    margin: 50px auto;
+    border: none;
+    background-color:rgb(208, 208, 208);
+    border-radius: 20px;
+    padding: 25px 35px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 30px;
+    row-gap: 25px;
+}
+
+#list-fieldset a {
+    padding: 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+#list-fieldset a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 4px 3px red;
+}
+
+
+#driver-card {
+    width: 215px;
+    height: 361px;
+    box-shadow: 0 0 0px 1px rgb(88, 88, 88);
+    border-radius: 15px;
+    padding: 5px;
+    text-align: left;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    margin-bottom: -18px;
+}
+
+#driver-card:hover {
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
+
+#driver-card img {
+    width: 190px;
+    height: 253px;
+    border-radius: 15px;
+    margin-left: 12.5px;
+    margin-top: 8px;
+    object-fit: cover;
+}
+
+#driver-card p {
+    margin-left: 12.5px;
+}
+
+#footer-p {
+    text-align: center;
+    color: azure;
+    font-family: sans-serif;
+}
