@@ -163,7 +163,7 @@ const sortDriverCards = (parameter = drivers) => {
 
 
 listFormat.addEventListener("change", (e) => {
-   sortDriverCards.innerHTML = "";
+    listFieldset.innerHTML = "";
 
    switch (e.target.value) {
     case "champions":
@@ -180,3 +180,4 @@ listFormat.addEventListener("change", (e) => {
    }
 });
 
+sortDriverCards()
